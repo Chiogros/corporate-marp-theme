@@ -1,0 +1,176 @@
+/* @theme corporate */
+
+:root {
+    width: 1920px;
+    height: 1080px;
+    padding: 5rem;
+
+    --primary-color: #009d0d;
+    --secondary-color: #3dcd58;
+    --text-color: #333333;
+    --background-color: white;
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-left: 5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+p {
+    font-size: 2rem;
+}
+
+ul, ol {
+    padding-left: 0rem;
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: "- ";
+}
+
+pre {
+    padding: 1rem 2rem;
+    border: lightgrey 1px solid;
+    border-radius: 0.25rem;
+    background-color: #EEEEEE;
+    font-family: monospace;
+    font-size: 1rem;
+    box-shadow: #EEEEEE 0rem 0rem 1rem 0.25rem;
+    margin: 1rem;
+}
+
+
+:root > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 10rem;
+    height: 30rem;
+}
+
+:root > pre {
+    margin: 0rem 10rem;
+}
+
+:root > ul > li {
+    list-style-type: none;
+    width: 50%;
+}
+
+:root > ul > li > h3, p {
+    margin: 0rem;
+}
+
+/* Select single images on a column */
+:root > ul > li > p:only-child {
+    text-align: center;
+}
+
+/* Pagination */
+section::after {
+    position: absolute;
+    bottom: 0rem;
+    font-size: 1.5rem;
+    color: grey;
+}
+
+/* Footer on the same line as pagination */
+footer {
+    position: absolute;
+    bottom: 80px;
+    font-size: 1.5rem;
+    color: grey;
+}
+
+/* Classes */
+section.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+
+}
+
+section.first header {
+    position: absolute;
+    top: 13rem;
+}
+
+section.first h1 {
+    font-size: 8rem;
+    margin: 0rem;
+}
+
+section.first footer {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+section.first::after {
+    display: none;
+}
+
+
+section.toc h1 {
+    color: var(--primary-color);
+}
+
+section.toc ol {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    padding-left: 0rem;
+    border-left: var(--primary-color) 0.5rem solid;
+}
+
+section.toc li {
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+    color: var(--text-color);
+}
+
+section.inverted {
+    background-color: var(--secondary-color);
+}
+
+section.inverted *:not(pre) {
+    color: white;
+}
+
+section.inverted::after {
+    color: white;
+}
+
+section.last {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+section.last footer {
+    color: white;
+}
+
+section.last::after {
+    display: none;
+}
