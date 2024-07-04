@@ -27,7 +27,10 @@ See the [documentation](https://marpit.marp.app/usage?id=apply-theme).
 
 ## Usage
 Marp's markdown directives are listed in their [documentation](https://marpit.marp.app/markdown).
+
 For a full list of Markdown directives, see the [specifications](https://spec.commonmark.org/current/).
+
+You can find a slideshow example [here](./doc/slideshow.md).
 
 Some theme's features are available with the following directives:
 - `# h1`
