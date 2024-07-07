@@ -1,7 +1,9 @@
 # Corporate theme for Marp
 [Marp](https://marp.app) allows you to build slideshows from Markdown code. This repo brings a simple and clean theme to your professional and school presentations.
 
- ![](./doc/assets/light-purple.png)
+Take a look at the [slideshow example](./doc/build/slideshow.pdf) using this theme.
+
+![](./doc/screenshots/light-purple.png)
 
 ## Installation
 Download the [stylesheet](corporate.css).
@@ -15,7 +17,7 @@ In your markdown file header:
 ```md
 ---
 marp: true
-theme: corporate.css
+theme: corporate
 ---
 
 # Title 1
@@ -30,7 +32,7 @@ Marp's markdown directives are listed in their [documentation](https://marpit.ma
 
 For a full list of Markdown directives, see the [specifications](https://spec.commonmark.org/current/).
 
-You can find a slideshow example [here](./doc/slideshow.md).
+You can find a example slideshow's code [here](./doc/slideshow.md).
 
 Some theme's features are available with the following directives:
 - `# h1`
@@ -44,12 +46,14 @@ Some theme's features are available with the following directives:
 Special slide layouts can be enabled using classes:
 ```md
 ---
+
 <!-- _class: <class-name> -->
+
 # Your slide title
 ```
 
 Here are some of them:
-- `first` slide of your presentation, with right sided image and SE logo, title, subtitle, date, author
+- `first` slide of your presentation, with right sided image and company logo, title, subtitle, date, author
   ```md
   <!-- _class: first -->
 
@@ -69,7 +73,7 @@ Here are some of them:
   2. Part X
   3. Part Y
   ```
-- `last` slide of your presentation, with simple green background and SE logo in the center
+- `last` slide of your presentation, with colored background and company logo in the center
   ```md
   <!-- _class: last -->
 
