@@ -57,6 +57,11 @@ pre {
     margin: 1rem;
 }
 
+:any-link {
+    color: var(--text-color);
+    text-decoration-color: var(--secondary-color);
+}
+
 :root > ul {
     display: flex;
     flex-direction: row;
