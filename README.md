@@ -13,6 +13,8 @@ Install the [Marp extension](https://marketplace.visualstudio.com/items?itemName
 
 Go to Settings > Search _markdown.marp.theme_ > Add Item > Set the path to the theme stylesheet you downloaded.
 
+Go to Settings > Search _markdown.marp.enable-html_ > Check the box to enable HTML and access extra features.
+
 In your markdown file header:
 ```md
 ---
