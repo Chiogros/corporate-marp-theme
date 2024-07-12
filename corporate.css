@@ -54,7 +54,6 @@ pre {
     margin: 1rem;
 }
 
-
 :root > ul {
     display: flex;
     flex-direction: row;
@@ -145,6 +144,10 @@ section.toc li {
     margin-bottom: 2rem;
     font-weight: bolder;
     color: var(--text-color);
+}
+
+section.toc a {
+    text-decoration-line: none;
 }
 
 section.inverted {
