@@ -3,7 +3,7 @@
 
 Take a look at the [slideshow example](./doc/build/slideshow.pdf) using this theme.
 
-![](./doc/screenshots/light-purple.png)
+![](./doc/screenshots/first.png)
 
 ## Installation
 Download the [stylesheet](corporate.css).
@@ -68,6 +68,8 @@ Here are some of them:
 - `toc` for _Table Of Content_, which pimps up an [ordered list](https://spec.commonmark.org/0.31.2/#ordered-list-marker)
   ```md
   <!-- _class: toc -->
+
+  # Table of content
 
   1. Introduction
   2. Part X
