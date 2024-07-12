@@ -1,7 +1,7 @@
 # Corporate theme for Marp
 [Marp](https://marp.app) allows you to build slideshows from Markdown code. This repo brings a simple and clean theme to your professional and school presentations.
 
-Take a look at the [slideshow example](./doc/build/slideshow.pdf) using this theme.
+Take a look at the [slideshow example](./doc/slideshow.pdf) using this theme.
 
 ![](./doc/screenshots/first.png)
 
