@@ -40,8 +40,9 @@ Some theme's features are available with the following directives:
 - `# h1`
 - `## h2`
 - ```md
-  - left column
-  - right column
+  - first column
+  - second column
+  - nth column
   ```
 
 ### Specific slides style
